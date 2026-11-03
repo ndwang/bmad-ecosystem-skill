@@ -1,0 +1,4 @@
+interface:
+  display_name: "bmad-sim"
+  short_description: "Accelerator modeling with Bmad, Tao, and PyTao"
+  default_prompt: "Use $bmad-sim to help me build and analyze an accelerator model."

@@ -4,7 +4,7 @@ A `Tao` object loads a model, accepts Tao commands, and returns calculated
 quantities as Python objects and arrays. The examples use the bundled
 [beamline](../assets/beamline/lattice.bmad) and
 [matching setup](../assets/matching/tao.init). Run the snippets from the
-`bmad-ecosystem` skill directory; paths are relative to that directory.
+`bmad-sim` skill directory; paths are relative to that directory.
 Upstream notebooks provide further examples and longer analyses.
 
 Contents: [session](#create-a-tao-session),

@@ -85,7 +85,7 @@ library must use compatible architectures and runtime dependencies.
 
 ## Verify with the bundled beamline
 
-Run these checks from the `bmad-ecosystem` skill directory with the selected
+Run these checks from the `bmad-sim` skill directory with the selected
 environment active. For a Python check, use PyTao:
 
 ```python

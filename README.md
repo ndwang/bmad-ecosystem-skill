@@ -1,6 +1,6 @@
-![Bmad Ecosystem Skill — beam focusing illustration](cover.png)
+![bmad-sim — beam focusing illustration](cover.png)
 
-# Bmad Ecosystem Skill
+# bmad-sim
 
 An agent skill for accelerator modeling with
 [Bmad](https://www.classe.cornell.edu/bmad),
@@ -14,17 +14,17 @@ fitting, and Python analysis.
 
 The skill follows the [Agent Skills format](https://agentskills.io/specification)
 and includes a Claude Code plugin manifest. Its entry point is
-[`skills/bmad-ecosystem/SKILL.md`](skills/bmad-ecosystem/SKILL.md).
+[`skills/bmad-sim/SKILL.md`](skills/bmad-sim/SKILL.md).
 
 ## Install
 
-Clone the repository and copy the complete `skills/bmad-ecosystem` directory
+Clone the repository and copy the complete `skills/bmad-sim` directory
 into your agent's skill search path. For a project that uses `.agents/skills`:
 
 ```sh
 git clone https://github.com/ndwang/bmad-ecosystem-skill.git
 mkdir -p /path/to/project/.agents/skills
-cp -R bmad-ecosystem-skill/skills/bmad-ecosystem /path/to/project/.agents/skills/
+cp -R bmad-ecosystem-skill/skills/bmad-sim /path/to/project/.agents/skills/
 ```
 
 For Claude Code, load the repository as a local plugin:
@@ -34,7 +34,7 @@ claude --plugin-dir /path/to/bmad-ecosystem-skill
 ```
 
 Running calculations also requires the relevant Bmad/Tao/PyTao software.
-See the [installation guide](skills/bmad-ecosystem/references/installation.md)
+See the [installation guide](skills/bmad-sim/references/installation.md)
 for runtime setup.
 
 ## License

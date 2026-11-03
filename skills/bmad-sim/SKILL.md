@@ -1,5 +1,5 @@
 ---
-name: bmad-ecosystem
+name: bmad-sim
 description: Use when installing or working with Bmad, Tao, or PyTao for accelerator modeling. Covers lattice syntax, element definitions and physics conventions, Tao initialization and commands, optics calculations, particle tracking, fitting, and Python model access and analysis.
 license: GPL-3.0-only
 metadata:
